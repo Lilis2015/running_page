@@ -1,6 +1,6 @@
 // const
 const MAPBOX_TOKEN =
-  'pk.eyJ1IjoieWlob25nMDYxOCIsImEiOiJja2J3M28xbG4wYzl0MzJxZm0ya2Fua2p2In0.PNKfkeQwYuyGOTT_x9BJ4Q';
+  'pk.eyJ1IjoiZmVuZ3poYW8iLCJhIjoiY2t2aHJma3RsY2Q5YzJwbW4zMG1pejhhMiJ9.RXdu7CrUc7Z0IFbm8CHvHA';
 const MUNICIPALITY_CITIES_ARR = [
   '北京市',
   '上海市',
@@ -9,11 +9,6 @@ const MUNICIPALITY_CITIES_ARR = [
   '香港特别行政区',
   '澳门特别行政区',
 ];
-
-// styling: set to `true` if you want dash-line route
-const USE_DASH_LINE = true;
-// styling: route line opacity: [0, 1]
-const LINE_OPACITY = 0.4;
 
 // IF you outside China please make sure IS_CHINESE = false
 const IS_CHINESE = true;
@@ -58,14 +53,8 @@ export {
   INFO_MESSAGE,
   RUN_TITLES,
   USE_ANIMATION_FOR_GRID,
-  USE_DASH_LINE,
-  LINE_OPACITY,
 };
 
 const nike = 'rgb(224,237,94)'; // if you want change the main color change here src/styles/variables.scss
-
-// If your map has an offset please change this line
-// issues #92 and #198
-export const NEED_FIX_MAP = false;
 export const MAIN_COLOR = nike;
 export const PROVINCE_FILL_COLOR = '#47b8e0';
